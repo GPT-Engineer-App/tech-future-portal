@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="1440px" p="0" m="0 auto">
       {/* Part 1 */}
-      <Box bg="#06062C" w="1440px" h="606px" position="relative">
+      <Box bg="#06062C" w="1440px" h="606px" position="relative" m="0">
         <Text position="absolute" left="54px" top="5px" fontSize="50px" fontWeight="700" color="white">
           AIGCode
         </Text>
@@ -23,7 +23,7 @@ const Index = () => {
       </Box>
 
       {/* Part 2 */}
-      <Box bg="#06062C" w="1440px" h="1020px">
+      <Box bg="#06062C" w="1440px" h="1020px" m="0">
         <Text mt="100px" textAlign="center" fontSize="34px" fontWeight="700" lineHeight="38px" bgGradient="linear(to-r, #CF6FFF, #766FFF, #736FFF, #3E8BFF, #48E3FF)" bgClip="text">
           AIGCode is capable of end-to-end application development
         </Text>
@@ -49,7 +49,7 @@ const Index = () => {
       </Box>
 
       {/* Part 3 */}
-      <Box bg="#06062C" w="1440px" h="616px">
+      <Box bg="#06062C" w="1440px" h="616px" m="0">
         <Flex justify="center" mt="26px">
           <Image src="https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwbGFjZWhvbGRlciUyMGZvciUyMGJldGElMjB0ZXN0aW5nfGVufDB8fHx8MTcxNTE2MDcyMnww&ixlib=rb-4.0.3&q=80&w=1080" w="400px" h="411.11px" />
         </Flex>
@@ -65,7 +65,7 @@ const Index = () => {
       </Box>
 
       {/* Part 4 */}
-      <Box bg="#06062C" w="1440px" h="731px">
+      <Box bg="#06062C" w="1440px" h="731px" m="0">
         <Text mt="100px" textAlign="center" fontSize="38px" fontWeight="700" lineHeight="56px" bgGradient="linear(to-r, #CA88EB, #7E78F1, #7A77F1, #7AA9F1, #80D5E4)" bgClip="text">
           What can the AIGCODE App do?
         </Text>
@@ -79,7 +79,7 @@ const Index = () => {
       </Box>
 
       {/* Part 5 */}
-      <Box bg="#06062C" w="1440px" h="829px">
+      <Box bg="#06062C" w="1440px" h="829px" m="0">
         <Text mt="100px" textAlign="center" fontSize="38px" fontWeight="500" lineHeight="56px" bgGradient="linear(to-r, #167CFA, #AC7BF6)" bgClip="text">
           AIGCode Community
         </Text>
@@ -92,7 +92,7 @@ const Index = () => {
       </Box>
 
       {/* Part 6 */}
-      <Box bg="#06062C" w="1440px" h="649px">
+      <Box bg="#06062C" w="1440px" h="649px" m="0">
         <Text mt="100px" textAlign="center" fontSize="38px" fontWeight="500" lineHeight="56px" bgGradient="linear(to-r, #167CFA, #AC7BF6)" bgClip="text">
           Welcome to join us
         </Text>
